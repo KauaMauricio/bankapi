@@ -1,6 +1,11 @@
 package com.example.bankapi.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Account {
+    @Id
     private String id;
     private int balance;
 
