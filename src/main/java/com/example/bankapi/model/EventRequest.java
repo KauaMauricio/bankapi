@@ -6,9 +6,9 @@ import lombok.Setter;
 @Setter
 @Getter
 public class EventRequest {
-    private String type;
-    private String origin;
-    private String destination;
-    private int amount;
+    String type;
+    String origin;
+    String destination;
+    int amount;
 
 }
